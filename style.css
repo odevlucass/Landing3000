@@ -1,0 +1,155 @@
+body {
+    font-family: Nunito;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    background: #000000;
+    color: #FFFFFF;
+    height: 800px;
+}
+
+.titulo_header {
+    margin-top: 100px;
+    margin-left: 100px;
+    line-height: 10px;
+}
+
+#titulo1 {
+    word-spacing: 8px;
+    font-weight: 500px;
+    font-size: 48px;
+}
+
+#subtitulo {
+    font-weight: 500px;
+    font-size: 32px;
+}
+
+.imagem_header img {
+    width: 255px;
+    margin-top: 100px;
+    margin-right: 100px;
+
+}
+
+.texto_header {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+    margin-top: 5px;
+}
+
+.botao_header {
+    color: #000;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 100px;
+    padding: 20px;
+    border-radius: 15px;
+    background: #FFFFFF;
+    color: #000000;
+    width: 50%;
+    text-align: center;
+}
+
+.titulo_main {
+    text-align: center;
+    color: #000;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 100;
+    margin-top: 100px;
+}
+
+main .oculos_main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main .oculos_main img {
+    width: 305px;
+    height: 350px;
+    margin: 15px;
+    border-radius: 15px;
+    border: 1px solid #000000;
+}
+
+main .parte2_main {
+    display: flex;
+    margin: 100px;
+}
+
+.texto_main {
+    max-width: 70%;
+    padding: 150px;
+    font-weight: 500;
+}
+
+main .imagem_main img {
+    margin-right: 100px;
+    margin-top: 50px;
+    width: 400px;
+    border-radius: 400px;
+    border: 1px solid #000000;
+}
+
+footer {
+    background: #000000;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo_footer {
+    display: flex;
+}
+
+footer .parte1_footer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    padding: 200px;
+}
+
+form [type="submit"] {
+    background: #FFE600;
+    color: #FF0000;
+    padding: 20px;
+    width: 100%;
+}
+
+input {
+    margin-top: 20px;
+    font-size: 20px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+footer img {
+    margin-top: 150px;
+    width: 200px;
+    border-radius: 200px;
+    margin-left: 100px
+}
+
+footer .parte2_footer .img3 {
+    margin-left: 270px;
+    margin-top: 20px;
+}
